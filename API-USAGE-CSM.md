@@ -22,12 +22,12 @@ La habilitación/deshabilitación de accesos mediante la API R-CRM: se realiza d
 
 ### Habilitación/Deshabilitación de accesos.
 
-1. Usando la applicación web Postman, dirigete al workspace de la API: [Residential-CRM - Casa Magna Residencial](https://crimson-meadow-469754.postman.co/workspace/My-Workspace~0b606529-fc72-47f9-85af-8296978ff734/collection/24422397-711148b8-2021-4d5b-8a42-e913b30c7ffe)
+1. Usando la applicación web Postman, dirigete al workspace de la API: [Residential-CSM - Claustros de Santa María](https://web.postman.co/workspace/My-Workspace~a4514fd3-4223-46c9-820a-dd433667e86f/collection/25031326-e0eb8ee2-eb82-4409-a4ea-94063327f427)
 
 
 ### Habilitación/Deshabilitación de accesos por residencia.
 
-1. Usando la applicación web Postman, dirigete al workspace de la API: [Residential-CRM - Casa Magna Residencial](https://crimson-meadow-469754.postman.co/workspace/My-Workspace~0b606529-fc72-47f9-85af-8296978ff734/collection/24422397-711148b8-2021-4d5b-8a42-e913b30c7ffe) dónde visualizarás la siguiente pantalla:
+1. Usando la applicación web Postman, dirigete al workspace de la API: [Residential-CSM - Claustros de Santa María](https://web.postman.co/workspace/My-Workspace~a4514fd3-4223-46c9-820a-dd433667e86f/collection/25031326-e0eb8ee2-eb82-4409-a4ea-94063327f427) dónde visualizarás la siguiente pantalla:
 
 ![](resources/static/images/Screenshot-Workspace.png)
 
@@ -39,7 +39,7 @@ La habilitación/deshabilitación de accesos mediante la API R-CRM: se realiza d
 
  ![](resources/static/images/Screenshot-EnvCMR.png)
 
-4. Una vez seleccionado el ambiente requerido, dirígete al directorio **Residencias** y haz doble click en el item: _[PATCH Actualizar acceso de residencia](https://crimson-meadow-469754.postman.co/workspace/My-Workspace~0b606529-fc72-47f9-85af-8296978ff734/request/24422397-efc5c4e4-3d70-4c6b-aa91-2a71588db59e)_ en el panel izquierdo de la pantalla.
+4. Una vez seleccionado el ambiente requerido, dirígete al directorio **Residencias** y haz doble click en el item: _[PATCH Actualizar acceso de residencia](https://web.postman.co/workspace/My-Workspace~a4514fd3-4223-46c9-820a-dd433667e86f/request/25031326-fdfea530-1f60-4044-99b2-4d2128b78c76)_ en el panel izquierdo de la pantalla.
 
 ![](resources/static/images/Screenshot-Residence-Directory.png)
 
@@ -103,7 +103,7 @@ Para localizar éste **TOKEN** de acceso único se pude hacer de dos formas:
 
 ![](resources/static/images/Screenshot-ExcelAssigned.png)
 
-2. Usando la applicación web Postman, dirigete al workspace de la API: [Residential-CRM - Casa Magna Residencial](https://crimson-meadow-469754.postman.co/workspace/My-Workspace~0b606529-fc72-47f9-85af-8296978ff734/collection/24422397-711148b8-2021-4d5b-8a42-e913b30c7ffe) dónde visualizarás la siguiente pantalla:
+2. Usando la applicación web Postman, dirigete al workspace de la API: [Residential-CSM - Claustros de Santa María](https://web.postman.co/workspace/My-Workspace~a4514fd3-4223-46c9-820a-dd433667e86f/collection/25031326-e0eb8ee2-eb82-4409-a4ea-94063327f427) dónde visualizarás la siguiente pantalla:
 
 ![](resources/static/images/Screenshot-Workspace.png)
 
@@ -115,7 +115,7 @@ Para localizar éste **TOKEN** de acceso único se pude hacer de dos formas:
 
  ![](resources/static/images/Screenshot-EnvCMR.png)
 
-4. Una vez seleccionado el ambiente requerido, dirígete al directorio **Accesos** y haz doble click en el item: _[**DEL** Borrar acceso](https://crimson-meadow-469754.postman.co/workspace/My-Workspace~0b606529-fc72-47f9-85af-8296978ff734/request/24422397-c2b1dcc3-9e2e-4c27-874d-52a4121a144b)_ en el panel izquierdo de la pantalla.
+4. Una vez seleccionado el ambiente requerido, dirígete al directorio **Accesos** y haz doble click en el item: _[**DEL** Borrar acceso](https://web.postman.co/workspace/My-Workspace~a4514fd3-4223-46c9-820a-dd433667e86f/request/25031326-6c081062-99f6-49c3-a718-74f0000451ea)_ en el panel izquierdo de la pantalla.
 
 ![](resources/static/images/Screenshot-DeleteAccess.png)
 
@@ -146,7 +146,7 @@ Para localizar éste **TOKEN** de acceso único se pude hacer de dos formas:
 ### Relizar una consulta usando la applicación web Postman para obtener los **TOKEN** de acceso (QR) asignados a una residencia.
 
 
-1. Usando la applicación web Postman, dirigete al workspace de la API: [Residential-CRM - Casa Magna Residencial](https://crimson-meadow-469754.postman.co/workspace/My-Workspace~0b606529-fc72-47f9-85af-8296978ff734/collection/24422397-711148b8-2021-4d5b-8a42-e913b30c7ffe) dónde visualizarás la siguiente pantalla:
+1. Usando la applicación web Postman, dirigete al workspace de la API: [Residential-CSM - Claustros de Santa María](https://web.postman.co/workspace/My-Workspace~a4514fd3-4223-46c9-820a-dd433667e86f/collection/25031326-e0eb8ee2-eb82-4409-a4ea-94063327f427) dónde visualizarás la siguiente pantalla:
 
 ![](resources/static/images/Screenshot-Workspace.png)
 
@@ -158,7 +158,7 @@ Para localizar éste **TOKEN** de acceso único se pude hacer de dos formas:
 
  ![](resources/static/images/Screenshot-EnvCMR.png)
 
-4. Una vez seleccionado el ambiente requerido, dirígete al directorio **Accesos** y haz doble click en el item: _[Obtener accesos por residencia](https://crimson-meadow-469754.postman.co/workspace/My-Workspace~0b606529-fc72-47f9-85af-8296978ff734/request/24422397-b6c50f78-967a-4bb5-b8ba-f3858473210c)_ en el panel izquierdo de la pantalla.
+4. Una vez seleccionado el ambiente requerido, dirígete al directorio **Accesos** y haz doble click en el item: _[**GET** Obtener accesos por residencia](https://web.postman.co/workspace/My-Workspace~a4514fd3-4223-46c9-820a-dd433667e86f/request/25031326-9c65f195-cf30-462a-8715-761a8e2907c7)_ en el panel izquierdo de la pantalla.
 
 ![](resources/static/images/Screenshot-Access-Directory.png)
 
@@ -187,7 +187,7 @@ Para localizar éste **TOKEN** de acceso único se pude hacer de dos formas:
     ![](resources/static/images/Screenshot-GetAccessResonse.png)
 
 
-8. Una vez has obtenido el valor de 32 caracteres del **TOKEN** de acceso (QR), dirígete al directorio **Accesos** y haz doble click en el item: _[**DEL** Borrar acceso](https://crimson-meadow-469754.postman.co/workspace/My-Workspace~0b606529-fc72-47f9-85af-8296978ff734/request/24422397-c2b1dcc3-9e2e-4c27-874d-52a4121a144b)_ en el panel izquierdo de la pantalla.
+8. Una vez has obtenido el valor de 32 caracteres del **TOKEN** de acceso (QR), dirígete al directorio **Accesos** y haz doble click en el item: _[**DEL** Borrar acceso](https://web.postman.co/workspace/My-Workspace~a4514fd3-4223-46c9-820a-dd433667e86f/request/25031326-6c081062-99f6-49c3-a718-74f0000451ea)_ en el panel izquierdo de la pantalla.
 
 ![](resources/static/images/Screenshot-DeleteAccess.png)
 
@@ -227,7 +227,7 @@ Para localizar éste **TOKEN** de acceso único se pude hacer de dos formas:
 
 ![](resources/static/images/Screenshot-ExcelSelectUnassigned.png)
 
-1. Usando la applicación web Postman, dirigete al workspace de la API: [Residential-CRM - Casa Magna Residencial](https://crimson-meadow-469754.postman.co/workspace/My-Workspace~0b606529-fc72-47f9-85af-8296978ff734/collection/24422397-711148b8-2021-4d5b-8a42-e913b30c7ffe) dónde visualizarás la siguiente pantalla:
+1. Usando la applicación web Postman, dirigete al workspace de la API: [Residential-CSM - Claustros de Santa María](https://web.postman.co/workspace/My-Workspace~a4514fd3-4223-46c9-820a-dd433667e86f/collection/25031326-e0eb8ee2-eb82-4409-a4ea-94063327f427) dónde visualizarás la siguiente pantalla:
 
 ![](resources/static/images/Screenshot-Workspace.png)
 
@@ -239,7 +239,7 @@ Para localizar éste **TOKEN** de acceso único se pude hacer de dos formas:
 
  ![](resources/static/images/Screenshot-EnvCMR.png)
 
-4. Una vez seleccionado el ambiente requerido, dirígete al directorio **Accesos** y haz doble click en el item: _[**PATCH** Asignar un nuevo acceso](https://crimson-meadow-469754.postman.co/workspace/My-Workspace~0b606529-fc72-47f9-85af-8296978ff734/request/24422397-53c67ace-40b0-41fc-8a8f-974e5d8ea41a)_ en el panel izquierdo de la pantalla.
+4. Una vez seleccionado el ambiente requerido, dirígete al directorio **Accesos** y haz doble click en el item: _[**PATCH** Asignar un nuevo acceso](https://web.postman.co/workspace/My-Workspace~a4514fd3-4223-46c9-820a-dd433667e86f/request/25031326-d2243da0-fd2a-4066-b291-847008edcc30)_ en el panel izquierdo de la pantalla.
 
 ![](resources/static/images/Screenshot-AssingAccessItem.png)
 
