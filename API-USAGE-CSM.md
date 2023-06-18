@@ -16,11 +16,11 @@ El contron de accessos se realiza mediante un **TOKEN** de acceso dispuesto a tr
 
 La habilitación/deshabilitación de accesos mediante la API R-CRM: se realiza de dos formas diferentes: 
 
-1. De forma individual: mediente la habilitación/deshabilitación del **TOKEN** de acceso (QR) de manera especifica.
+1. De forma individual: mediente la habilitación/deshabilitación del **TOKEN** de acceso (QR) de manera especifica. [Go to](#enable/disable)
 
 2. Mediante la habilitación/deshabilitación de los **TOKEN** de acceso (QRs) ligados a una residencia, por lo que todos los **TOKEN** de acceso ligados a una resdiencia en concreto, quedan deshabilitados cuando se deshabilita el acceso de una residencia.
 
-### Habilitación/Deshabilitación de accesos.
+### Habilitación/Deshabilitación de accesos. {#enable/disable}
 
 1. Usando la applicación web Postman, dirigete al workspace de la API: [Residential-CSM - Claustros de Santa María](https://web.postman.co/workspace/My-Workspace~a4514fd3-4223-46c9-820a-dd433667e86f/collection/25031326-e0eb8ee2-eb82-4409-a4ea-94063327f427)
 
@@ -273,4 +273,40 @@ Para ello deberas hacer click en el icono de ambientes ![](resources/static/imag
 
 
 > Nota, por seguridad, cada vez que se ejecuta la accion **"Send"** ![](resources/static/images/Screenshot-SendIcon.png) se borran todas las variables introducidas para evitar realizar un cambio no deseado con información previamente capturada, por lo que antes de cada acción se debeb introducir las variables deseadas.
+
+
+### Consulta de servicios activos:
+
+La siguiente págna: _[**https://residentials-crm.azurewebsites.net/api/csm.html**](https://residentials-crm.azurewebsites.net/api/csm.html)_  tíene como finalidad proporcionar a los servicios de seguridad contratados realizar una consulta para conocer el estado de los servicios de una residencia en cuestion, teniendo los siguientes resultados:
+
+- Servicios Activos:
+- Servicios Inactivos
+
+Para poder conocer el estado de los servicios que guarada una residencia, se debera generar una consulta, seleccionanod el número de departamento de la lista desplegable y una vez selecionado el departamente a consultar, oprimiendo el boton **Consultar**:
+
+![](resources/static/images/Screenshot-csm.html.jpg)
+![](resources/static/images/Screenshot-csm-menu-desplegable.jpg)
+
+La pagina devolverá una consulta en tiempo real del estado que guardan los servicios de esa residencia, los cuales guardan una relación directa con la activiación/desactivación de los QR's
+
+
+| Activo | Inactivo |
+|--------|----------|
+|![](resources/static/images/Screenshot-csm-activo.jpg)|![](resources/static/images/Screenshot-csm-inactivo.jpg)|
+
+ Nota, el boton **Limpiar** ejecuta la accion descrita con ese nombre y borra el formulario. 
+
+ ### Agregando la pagina de consulta a la pantalla de inicio del teléfono:
+
+ 1. Acceder a la pàgina: _[**https://residentials-crm.azurewebsites.net/api/csm.html**](https://residentials-crm.azurewebsites.net/api/csm.html)_ en Chrome:
+
+ ![](resources/static/images/Screenshot-csm.html.jpg)
+
+ 2. Hacer click en el menú flotante (tres puntos) de la esquina superior derecha junto a la barra de dirección.
+
+![](resources/static/images/Screenshot-csm-agregar.jpg)
+
+ 3. Seleccionar la opción: _**Agregar a la pantalla principal**_, dicha accion agregará la pagina a la pantalla principal del teléfono para un acceso directo:
+
+ ![](resources/static/images/Screenshot-csm-pantalla-inicio.jpg)
 
